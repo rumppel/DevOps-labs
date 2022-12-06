@@ -5,7 +5,9 @@
   "author": "Sofiia Liemieshova <sonya.lemeshova@gmail.com>",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "lint:js": "eslint *.js",
+    "lint": "npm run lint:js"
   },
   "dependencies": {
     "express": "^4.18.2"
