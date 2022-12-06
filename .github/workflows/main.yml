@@ -2,7 +2,7 @@ name: CI/CD
 run-name: ${{ github.actor }} is checking CI/CD for DevOps Fundamentals 🚀
 on: [push]
 env:
-  tag: ${{ secrets.DOCKER_HUB_USERNAME }}/devops-fundamentals-docker:latest
+  tag: ${{ secrets.DOCKER_HUB_USERNAME }}/node_js_app:latest
 
 jobs:
   linting:
